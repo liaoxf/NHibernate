@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Services", "Services\Core.Services.csproj", "{8404486A-8383-4996-B28B-10DB42DF9049}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{CCF56F5E-838A-42DA-9757-CAAB1242A23D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8404486A-8383-4996-B28B-10DB42DF9049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8404486A-8383-4996-B28B-10DB42DF9049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8404486A-8383-4996-B28B-10DB42DF9049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8404486A-8383-4996-B28B-10DB42DF9049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCF56F5E-838A-42DA-9757-CAAB1242A23D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF56F5E-838A-42DA-9757-CAAB1242A23D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF56F5E-838A-42DA-9757-CAAB1242A23D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF56F5E-838A-42DA-9757-CAAB1242A23D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
